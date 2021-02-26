@@ -1,0 +1,296 @@
+body
+{
+	font-family: "Segoe UI";
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.with_icons
+{
+	font-family: fontello, sans-serif;
+}
+
+.row
+{
+	background-color: #cacaca;
+	padding: 0;
+}
+
+.row h2
+{
+	text-align: center;
+}
+
+.col-12
+{
+	border: 1px groove;
+	padding: 30px;
+	margin: 0;
+}
+
+.col-12 p
+{
+	text-align: center;
+}
+
+.hidding
+{
+	margin-bottom: 10px;
+}
+
+.nowy_typ
+{
+	margin-left: 15px;
+}
+
+.table-responsive p, .table-bordered, section.sort_nazwa > div.container > div.row > div.col-12 fieldset .table, section.sort_typ > div.container > div.row > div.col-12 fieldset .table, section.sort_data > div.container > div.row > div.col-12 fieldset .table, section.typy > div.container > div.row > div.col-12 fieldset .table
+{
+	text-align: center;
+}
+
+.table td, .table th
+{
+	border-top: 1px solid #a7a7a7;
+}
+
+.table-responsive .btn
+{
+	max-width: 500px;
+	width: 80%;
+}
+
+.table-responsive > .table-bordered tr > th, .table-responsive > .table-bordered tr > td
+{
+	border: 1px solid black;
+}
+
+section.wydatki_zarzadzanie>div.container>div.row>div.col-12 h3
+{
+	text-align: center;
+}
+
+section.wydatki .table-bordered tr > th, section.wydatki .table-bordered tr > td
+{
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+select, input[type="text"], input[type=number], input[type=date], input[type="password"]
+{
+	font-size: 14px;
+}
+
+div.container > div.row > div.col-12 fieldset
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	border: 1px groove;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 20px;
+	padding: 15px 30px;
+}
+
+div.container > div.row > div.col-12 legend
+{
+	width: auto;
+	font-size: 20px;
+	text-align: left;
+}
+
+section.sort_nazwa > div.container > div.row > div.col-12 fieldset .table tr:first-child > td, section.sort_typ > div.container > div.row > div.col-12 fieldset .table tr:first-child > td, section.sort_data > div.container > div.row > div.col-12 fieldset .table tr:first-child > td, section.typy > div.container > div.row > div.col-12 fieldset .table tr:first-child > td, section.wydatki > div.container > div.row > div.col-12 fieldset .table tr:first-child > td, section.wydatki_zarzadzanie > div.container > div.row > div.col-12 fieldset .table tr:first-child > td
+{
+	border: 0;
+}
+
+section.index > div.container > div.row
+{
+	background-color: transparent;
+}
+
+section.index > div.container > div.row > div.col-12
+{
+	border: 0;
+}
+
+.logon, .info
+{
+	margin-left: auto;
+	margin-right: auto;
+	/*height: 250px;*/
+	width: 370px;
+	background-color: #72052e;
+	color: #e4e4e4;
+	font-size: 20px;
+	padding: 15px;
+	-webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.3);
+	box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.3);
+	font-weight: 500;
+}
+
+.info
+{
+	height: 85px;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.logon
+{
+	background-color: #ab0040;
+}
+
+.logon input[type="password"], .logon input[type="text"]
+{
+	font-size: 14px;
+	width: 230px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.logon input[type="submit"]:hover, .logon input[type="button"]:hover
+{
+	animation: bounce 1s;
+}
+
+.logon .btn
+{
+	width: 49%;
+}
+
+.index hr
+{
+	border-top: 1px solid rgba(255,255,255,.4);
+}
+
+.hidden_info
+{
+	display: flex;
+	justify-content: center;
+}
+
+.nowy_typ label
+{
+	margin-left: 2px;
+}
+
+/*navbar*/
+nav.navbar
+{
+	display: flex;
+	justify-content: flex-end;
+	z-index: 100;
+	width: 100%;
+	background-color: #343a40;
+	color: #eaeaea;
+	padding: 0;
+	padding-right: 0%;
+	border-bottom: 1px solid #1c2d3a;
+}
+
+nav.navbar input[type="submit"]
+{
+	background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    width: 100%;
+    font: inherit;
+    cursor: pointer;
+}
+
+nav.navbar > ol.navbar-nav
+{	
+	display: block; /*można tworzyć elementy blokowe, które będą się układać w jednej lini, tak jak elementy blokowe, przywróciło działanie text-align: center; z właściwości diva #nav*/
+	padding: 0;
+	margin: 0;
+	list-style-type: none; /*typ stylizowania listy - nic*/
+	font-size: 18px;
+	line-height: 200%; /*interlinie, czyli jak wiele miejsca w pionie zajmuje jedna linia tekstu*/
+	text-align: center;
+}
+
+ol > li /*stylizowanie elementu li, którego rodzicem jest ol, kwestia hierarchi*/
+{
+	display: inline-block;
+	float: left;
+	width: 220px;
+	border-right: 1px solid #72052e; /*obramowanie z prawej strony wielkości 1px kreskowana o kolorze*/
+	transition: 0.3s all ease-in-out;
+	cursor: pointer;
+}
+
+ol > li:first-child /*stylizowanie pierwszego li z listy numerowanej ol*/
+{
+	border-left: 1px solid #72052e;
+}
+
+ol > li:hover
+{
+	background-color: #063250;
+	/*background-color: #005691;*/
+	color: white;
+}
+
+ol > li a /*stylizowanie hiperłączy tylko tych, ktore pojawią sie w liście ol*/
+{
+	color: #eaeaea;
+	text-decoration: none;
+	display: block; /*link zachowuje sie jak element blokowy, któremu można przypisać szerokość i wysokość jak elementowi blokowemu*/
+}
+
+ol > li a:hover
+{
+	text-decoration: none;
+	color: #eee;
+}
+
+ol > li > ul /*rodzic ol, potomek li, potomek potomka ul*/
+{
+	list-style-type: none; /*typ stylizowania listy - nic*/
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none; /*sposób wyświetlania listy ul - w ogóle nie wyświetlaj*/
+	position: absolute;
+	width: 219px;
+}
+
+ol > li > ul > li
+{
+	background-color: #5f97bd;
+	position: relative; /*pozycja relatywna, czyli zależnie od miejsca gdzie się znajduje w kodzie HTML będzie miało pierwszeństwo*/
+	z-index: 100; /*wykorzystane po to, aby rozwijane menu zasłoniło wszystko, nie tylko tekst, ale i obrazki*/
+	border-top: 1px solid #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #336f98;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: black; /*hiperłącze ma pierwszeństwo określenia koloru przed klorem określonym w divie*/
+	text-decoration: underline;
+}
+/*end navbar*/

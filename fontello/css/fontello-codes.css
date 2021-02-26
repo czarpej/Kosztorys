@@ -1,0 +1,19 @@
+
+.icon-logout:before { content: '\e800'; } /* '' */
+.icon-search:before { content: '\e801'; } /* '' */
+.icon-calendar:before { content: '\e802'; } /* '' */
+.icon-users:before { content: '\e803'; } /* '' */
+.icon-home:before { content: '\e804'; } /* '' */
+.icon-cog:before { content: '\e805'; } /* '' */
+.icon-edit:before { content: '\e806'; } /* '' */
+.icon-clipboard:before { content: '\e807'; } /* '' */
+.icon-key:before { content: '\e808'; } /* '' */
+.icon-doc-add:before { content: '\e809'; } /* '' */
+.icon-trash-empty:before { content: '\e80a'; } /* '' */
+.icon-cancel-circled:before { content: '\e80b'; } /* '' */
+.icon-undo:before { content: '\e80c'; } /* '' */
+.icon-sort-name-up:before { content: '\f15d'; } /* '' */
+.icon-sort-alt-up:before { content: '\f160'; } /* '' */
+.icon-calc:before { content: '\f1ec'; } /* '' */
+.icon-cart-plus:before { content: '\f217'; } /* '' */
+.icon-user-plus:before { content: '\f234'; } /* '' */
